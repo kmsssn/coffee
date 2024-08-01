@@ -1,0 +1,70 @@
+body{
+   margin: 0;
+}
+
+h1{
+   padding: 30px;
+   margin: 0px;
+}
+
+.text{
+   margin: 0;
+   padding-bottom: 20px;
+}
+header{
+   height:200px; ; /*высота блока*/
+   background-color: rgb(1, 1, 10);/*цвет фона*/
+   color: aliceblue;/*цвет текста*/
+   text-align: center;
+   font-size: 30px; ;
+
+   background-image: url(https://coffeelb.ru/upload/medialibrary/460/460f217f31d26b991597e3aba179b63c.jpg);
+background-size: cover;
+background-position:center ;
+}
+main{
+    
+    background-color: rgb(118, 18, 250);/*цвет фона*/
+    color: rgb(214, 214, 214);/*цвет текста*/
+    text-align: center;
+    font-size: 45px; ;
+    padding-top:  10px; ;
+   display: flex;
+    background-image:url(https://coffeelb.ru/upload/medialibrary/460/460f217f31d26b991597e3aba179b63c.jpg) ;
+ }
+
+.left{
+   width: 50%;
+   font-size: 20px;
+   text-align: justify;
+   text-shadow: 2px 2px 5px #000;
+}
+ 
+   
+
+.right{
+   width: 50%;
+}
+
+ footer{
+    height:100%; ; /*высота блока*/
+    background-color: rgb(106, 33, 189);/*цвет фона*/
+    color: rgb(34, 4, 68);/*цвет текста*/
+    text-align: right;
+    font-size:50px; ;
+    padding-bottom: 10px;
+    background-position: center;
+    text-align: center;
+   }
+    
+ .social img{
+   width: 100px;
+   padding: 10px;
+ }
+
+.social{
+   list-style: none;
+   display: flex;
+   justify-content: center;
+   align-items:center ;
+}
